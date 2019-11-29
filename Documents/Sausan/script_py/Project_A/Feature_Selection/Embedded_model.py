@@ -149,5 +149,5 @@ print('currently runing : EMBEDDED MODEL')
 print('=======================================')
 df = {'Plant' : 'Capsicum annuum', 'Genotype' : '3 markers', 'Created by': 'Sausan Cantik|2019'}
 pd.Series(df).to_excel('Embedded_model.xlsx')
-embedded_model(columns, k)
+embedded_model(columns, m)
 print('you now have a file called: Embedded_model.xlsx ')

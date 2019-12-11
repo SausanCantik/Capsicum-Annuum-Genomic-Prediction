@@ -64,7 +64,7 @@ def embedded_model(columns, m):
         #MNB Model
         selected_markers = []
         mnb_accuracy = []
-        for i in range (k) :
+        for i in range (m) :
             i = i+1
     
             #Check point i

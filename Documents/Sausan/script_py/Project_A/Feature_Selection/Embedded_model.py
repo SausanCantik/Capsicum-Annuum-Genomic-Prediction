@@ -76,7 +76,7 @@ def embedded_model(columns, m):
             #create a dictionary for marker and the model accuracy
             model_list = {}
     
-            #for each combination, generate the SVC, obtain the model accuracy
+            #for each combination, generate the Classifier, obtain the model accuracy
             for marker in markers:
                 selected = list(marker)
                 #marker_model['Marker'] = marker

@@ -83,7 +83,7 @@ def embedded_model(columns, m):
                 trainX = X_train[selected]
                 testX = X_test[selected]
                         
-                #build the svm model using training data
+                #build the classification model using training data
                 model = MultinomialNB()       
                 model.fit(trainX, y_train)
 

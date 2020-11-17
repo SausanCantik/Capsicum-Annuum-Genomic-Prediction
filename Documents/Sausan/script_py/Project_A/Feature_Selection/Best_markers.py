@@ -43,7 +43,7 @@ def marker_selection(encoded_genotype, phenotype_data):
         X = encoded_genotype
         y = phenotype_data[trait]
 
-        # Select two features with highest chi-squared statistics
+        # Select ten features with highest chi-squared statistics
         chi2_selector = SelectKBest(chi2, k=10)
         chi2_selector.fit(X, y)
 
